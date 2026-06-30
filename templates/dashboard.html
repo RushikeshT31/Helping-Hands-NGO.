@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registration Successful</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#dff6f0,#cceee8,#b5e5dd);
+
+    padding:30px;
+
+}
+
+.box{
+
+    width:650px;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.icon{
+
+    width:100px;
+
+    height:100px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#e8fff4;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:55px;
+
+    color:#16a34a;
+
+    margin-bottom:25px;
+
+}
+
+h1{
+
+    color:#006d77;
+
+    font-size:38px;
+
+    margin-bottom:10px;
+
+}
+
+.tagline{
+
+    color:#666;
+
+    font-size:18px;
+
+    margin-bottom:30px;
+
+}
+
+.success-card{
+
+    background:#f8fffd;
+
+    border-left:5px solid #009688;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+}
+
+.success-card h2{
+
+    color:#16a34a;
+
+    margin-bottom:15px;
+
+}
+
+.success-card p{
+
+    color:#555;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.name{
+
+    color:#006d77;
+
+    font-weight:bold;
+
+}
+
+.button-group{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    text-decoration:none;
+
+    padding:14px 30px;
+
+    border-radius:40px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.home{
+
+    background:#009688;
+
+    color:white;
+
+}
+
+.home:hover{
+
+    background:#006d77;
+
+}
+
+.project{
+
+    background:#FFD54F;
+
+    color:#222;
+
+}
+
+.project:hover{
+
+    background:#f4c430;
+
+}
+
+.footer{
+
+    margin-top:30px;
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<div class="icon">
+
+✅
+
+</div>
+
+<h1>
+
+Helping Hands NGO
+
+</h1>
+
+<p class="tagline">
+
+Together We Can Change Lives ❤️
+
+</p>
+
+<div class="success-card">
+
+<h2>
+
+🎉 Registration Successful!
+
+</h2>
+
+<p>
+
+Hello <span class="name">{{ name }}</span>,
+
+</p>
+
+<br>
+
+<p>
+
+Thank you for registering as a volunteer with
+<strong>Helping Hands NGO</strong>.
+
+Your registration has been successfully completed.
+Our team will contact you soon.
+
+</p>
+
+</div>
+
+<div class="button-group">
+
+<a href="/" class="btn home">
+
+🏠 Back To Home
+
+</a>
+
+<a href="/projects" class="btn project">
+
+📂 View Projects
+
+</a>
+
+</div>
+
+<div class="footer">
+
+Helping Hands NGO © 2026
+
+</div>
+
+</div>
+
+</body>
+
+</html>

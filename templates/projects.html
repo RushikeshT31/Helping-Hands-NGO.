@@ -1,0 +1,2674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Projects</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body class="projects-page">
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<div class="logo">
+
+<h1>Helping Hands NGO</h1>
+
+</div>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/projects" class="active">Projects</a>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="project-hero">
+
+<h1>Our NGO Projects</h1>
+
+<p>
+
+Together we create opportunities for a better tomorrow.
+
+</p>
+
+</section>
+
+<!-- ================= SEARCH ================= -->
+
+<section class="project-search">
+
+<input
+type="text"
+placeholder="🔍 Search Project">
+
+<select>
+
+<option>All Projects</option>
+
+<option>Ongoing</option>
+
+<option>Completed</option>
+
+<option>Upcoming</option>
+
+</select>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="projects-page">
+
+<div class="project-grid">
+
+<!-- Card 1 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/education.jpg') }}">
+
+<div class="project-content">
+
+<h3>Education Support</h3>
+
+<p>
+
+Providing free books, uniforms,
+scholarships and quality education
+to poor children.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+
+<span class="status ongoing">
+
+Ongoing
+
+</span>
+
+<div class="progress">
+
+<div style="width:75%"></div>
+
+</div>
+
+<p>75% Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/tree.jpg') }}">
+
+<div class="project-content">
+
+<h3>Tree Plantation</h3>
+
+<p>
+
+Planting trees and protecting the
+environment through awareness
+campaigns.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Pune</p>
+
+<span class="status complete">
+
+Completed
+
+</span>
+
+<div class="progress">
+
+<div style="width:100%"></div>
+
+</div>
+
+<p>Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/health.jpg') }}">
+
+<div class="project-content">
+
+<h3>Health Camp</h3>
+
+<p>
+
+Free medical camps,
+blood donation,
+health awareness.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Nashik</p>
+
+<span class="status upcoming">
+
+Upcoming
+
+</span>
+
+<div class="progress">
+
+<div style="width:20%"></div>
+
+</div>
+
+<p>Starts Soon</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 4 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/food.jpg') }}">
+
+<div class="project-content">
+
+<h3>Food Distribution</h3>
+
+<p>
+
+Providing healthy meals
+to poor families
+every week.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Nagpur</p>
+
+<span class="status ongoing">
+
+Ongoing
+
+</span>
+
+<div class="progress">
+
+<div style="width:65%"></div>
+
+</div>
+
+<p>65% Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 5 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/women.jpg') }}">
+
+<div class="project-content">
+
+<h3>Women Empowerment</h3>
+
+<p>
+
+Helping women through
+skill development
+and self employment.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Aurangabad</p>
+
+<span class="status complete">
+
+Completed
+
+</span>
+
+<div class="progress">
+
+<div style="width:100%"></div>
+
+</div>
+
+<p>Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 7 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/blood1.jpg') }}">
+
+<div class="project-content">
+
+<h3>Blood Donation Camp</h3>
+
+<p>
+
+Organizing blood donation camps to save lives and support hospitals during emergencies.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Pune</p>
+
+<span class="status ongoing">Ongoing</span>
+
+<div class="progress">
+
+<div style="width:70%"></div>
+
+</div>
+
+<p>70% Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">Donate</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 8 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/disaster.jpg') }}">
+
+<div class="project-content">
+
+<h3>Disaster Relief</h3>
+
+<p>
+
+Providing food, shelter, medicines and emergency support to flood and earthquake victims.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Kolhapur</p>
+
+<span class="status ongoing">Ongoing</span>
+
+<div class="progress">
+
+<div style="width:55%"></div>
+
+</div>
+
+<p>55% Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">Donate</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 9 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/water.jpg') }}">
+
+<div class="project-content">
+
+<h3>Clean Water Project</h3>
+
+<p>
+
+Installing water purification systems and providing clean drinking water to villages.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Satara</p>
+
+<span class="status complete">Completed</span>
+
+<div class="progress">
+
+<div style="width:100%"></div>
+
+</div>
+
+<p>Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">Donate</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 6 -->
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/child.jpg') }}">
+
+<div class="project-content">
+
+<h3>Child Welfare</h3>
+
+<p>
+
+Helping orphan children through
+education, food,
+healthcare and shelter.
+
+</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Pune</p>
+
+<span class="status ongoing">
+
+Ongoing
+
+</span>
+
+<div class="progress">
+
+<div style="width:85%"></div>
+
+</div>
+
+<p>85% Completed</p>
+
+<div class="project-buttons">
+
+<a href="/donate" class="btn2">
+
+Donate
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="categories">
+
+<h2>Project Categories</h2>
+
+<div class="category-grid">
+
+<div class="category-card">
+
+<i class="fas fa-book-open"></i>
+
+<h3>Education</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-seedling"></i>
+
+<h3>Environment</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-heartbeat"></i>
+
+<h3>Healthcare</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-bowl-food"></i>
+
+<h3>Food</h3>
+
+</div>
+
+<div class="category-card">
+
+    <i class="fas fa-droplet"></i>
+
+    <h3>Clean Water</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-child"></i>
+
+<h3>Child Welfare</h3>
+
+</div>
+
+<div class="category-card">
+
+    <i class="fas fa-paw"></i>
+
+    <h3>Animal Welfare</h3>
+
+</div>
+<div class="category-card">
+
+    <i class="fas fa-user-doctor"></i>
+
+    <h3>Medical Camps</h3>
+
+</div>
+
+<div class="category-card">
+
+    <i class="fas fa-hand-holding-heart"></i>
+
+    <h3>Disaster Relief</h3>
+
+</div>
+
+<div class="category-card">
+
+<i class="fas fa-venus"></i>
+
+<h3>Women Empowerment</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECT IMPACT ================= -->
+
+<section class="project-impact">
+
+    <h2>Our Project Impact</h2>
+
+    <p class="impact-text">
+
+        Through our dedicated volunteers and generous donors,
+        we have transformed thousands of lives across Maharashtra.
+
+    </p>
+
+    <div class="impact-grid">
+
+        <div class="impact-card">
+
+            <i class="fas fa-user-graduate"></i>
+
+            <h3>3,500+</h3>
+
+            <p>Students Educated</p>
+
+        </div>
+
+        <div class="impact-card">
+
+            <i class="fas fa-tree"></i>
+
+            <h3>15,000+</h3>
+
+            <p>Trees Planted</p>
+
+        </div>
+
+        <div class="impact-card">
+
+            <i class="fas fa-utensils"></i>
+
+            <h3>50,000+</h3>
+
+            <p>Meals Served</p>
+
+        </div>
+
+        <div class="impact-card">
+
+            <i class="fas fa-hand-holding-heart"></i>
+
+            <h3>2,000+</h3>
+
+            <p>Families Supported</p>
+
+        </div>
+
+        <div class="impact-card">
+
+            <i class="fas fa-users"></i>
+
+            <h3>750+</h3>
+
+            <p>Volunteers</p>
+
+        </div>
+
+        <div class="impact-card">
+
+            <i class="fas fa-hospital"></i>
+
+            <h3>120+</h3>
+
+            <p>Medical Camps</p>
+
+        </div>
+
+<div class="impact-card">
+    <i class="fas fa-hospital-user"></i>
+    <h3>8,500+</h3>
+    <p>Medical Checkups</p>
+</div>
+
+<div class="impact-card">
+    <i class="fas fa-school"></i>
+    <h3>85+</h3>
+    <p>Schools Supported</p>
+</div>
+
+<div class="impact-card">
+    <i class="fas fa-female"></i>
+    <h3>2,800+</h3>
+    <p>Women Empowered</p>
+</div>
+
+<div class="impact-card">
+    <i class="fas fa-child"></i>
+    <h3>1,500+</h3>
+    <p>Children Helped</p>
+</div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECT TIMELINE ================= -->
+
+<section class="timeline-section">
+
+    <div class="section-title">
+
+        <h2>Project Timeline</h2>
+
+        <p>
+
+            Our projects follow a systematic process to ensure
+            transparency, efficiency and maximum impact.
+
+        </p>
+
+    </div>
+
+    <div class="timeline">
+
+        <!-- Step 1 -->
+
+        <div class="timeline-item left">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-lightbulb"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Planning</h3>
+
+                <h5>January 2026</h5>
+
+                <p>
+
+                    We identify community needs, prepare project
+                    proposals and estimate the required resources.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Step 2 -->
+
+        <div class="timeline-item right">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-hand-holding-heart"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Fund Raising</h3>
+
+                <h5>February 2026</h5>
+
+                <p>
+
+                    Donations, sponsorships and CSR partnerships
+                    are collected to support project activities.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Step 3 -->
+
+        <div class="timeline-item left">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-users"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Volunteer Registration</h3>
+
+                <h5>March 2026</h5>
+
+                <p>
+
+                    Volunteers register and receive training
+                    before participating in project execution.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Step 4 -->
+
+        <div class="timeline-item right">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-seedling"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Project Execution</h3>
+
+                <h5>April - July 2026</h5>
+
+                <p>
+
+                    Activities such as education programs,
+                    tree plantation and medical camps are conducted.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Step 5 -->
+
+        <div class="timeline-item left">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-chart-line"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Monitoring</h3>
+
+                <h5>August 2026</h5>
+
+                <p>
+
+                    Project performance is evaluated and progress
+                    reports are prepared.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Step 6 -->
+
+        <div class="timeline-item right">
+
+            <div class="timeline-icon">
+
+                <i class="fas fa-award"></i>
+
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Project Completion</h3>
+
+                <h5>September 2026</h5>
+
+                <p>
+
+                    Final reports are published and the project
+                    impact is shared with donors and volunteers.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= PROJECT PROGRESS ================= -->
+
+<section class="progress-section">
+
+    <h2>Our Project Progress</h2>
+
+    <p>
+
+        We continuously monitor every project to ensure maximum
+        transparency and successful implementation.
+
+    </p>
+
+    <div class="progress-grid">
+
+        <div class="circle-card">
+
+            <div class="circle circle1">
+
+                <h3>90%</h3>
+
+            </div>
+
+            <h4>Education Support</h4>
+
+            <p>Books, Scholarships & School Kits</p>
+
+        </div>
+
+        <div class="circle-card">
+
+            <div class="circle circle2">
+
+                <h3>75%</h3>
+
+            </div>
+
+            <h4>Tree Plantation</h4>
+
+            <p>Environment Protection</p>
+
+        </div>
+
+        <div class="circle-card">
+
+            <div class="circle circle3">
+
+                <h3>65%</h3>
+
+            </div>
+
+            <h4>Food Distribution</h4>
+
+            <p>Meals for Poor Families</p>
+
+        </div>
+
+        <div class="circle-card">
+
+            <div class="circle circle4">
+
+                <h3>100%</h3>
+
+            </div>
+
+            <h4>Women Empowerment</h4>
+
+            <p>Skill Development</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= NGO FEATURES ================= -->
+
+<section class="features">
+
+<h2>Why Choose Helping Hands NGO?</h2>
+
+<p>
+
+We believe in transparency, accountability and sustainable
+community development.
+
+</p>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+
+<i class="fas fa-shield-heart"></i>
+
+<h3>Trusted NGO</h3>
+
+<p>
+
+Serving communities with honesty and dedication.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<i class="fas fa-hand-holding-heart"></i>
+
+<h3>100% Transparency</h3>
+
+<p>
+
+Every donation is utilized responsibly.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<i class="fas fa-users"></i>
+
+<h3>Experienced Volunteers</h3>
+
+<p>
+
+Dedicated volunteers working across Maharashtra.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<i class="fas fa-seedling"></i>
+
+<h3>Eco Friendly</h3>
+
+<p>
+
+Supporting sustainable and green initiatives.
+
+</p>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
+
+<style>
+
+/*====================================
+        PROJECT HERO
+=====================================*/
+
+.projects-page{
+
+    background:#eef9f8;
+
+}
+
+.project-card{
+
+    background:#ffffff;
+
+    border:1px solid #d7efec;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.project-hero{
+
+    background:
+    linear-gradient(
+        rgba(0,109,119,.75),
+        rgba(0,0,0,.55)
+    ),
+    url("../images/projects-banner.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    min-height:55vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    color:white;
+
+    padding:80px 20px;
+
+}
+
+.project-hero h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+    text-shadow:0 5px 15px rgba(0,0,0,.5);
+
+}
+
+.project-hero p{
+
+    font-size:22px;
+
+    max-width:750px;
+
+    line-height:1.8;
+
+}
+/*====================================
+        SEARCH SECTION
+=====================================*/
+
+.project-search{
+
+    background:#f8fafc;
+
+    padding:40px 8%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.project-search input{
+
+    width:400px;
+
+    max-width:100%;
+
+    padding:16px;
+
+    border:2px solid #ddd;
+
+    border-radius:50px;
+
+    outline:none;
+
+    font-size:17px;
+
+    transition:.4s;
+
+}
+
+.project-search input:focus{
+
+    border-color:#009688;
+
+    box-shadow:0 0 12px rgba(0,150,136,.2);
+
+}
+
+.project-search select{
+
+    padding:16px 25px;
+
+    border-radius:50px;
+
+    border:2px solid #ddd;
+
+    font-size:17px;
+
+    outline:none;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.project-search select:hover{
+
+    border-color:#009688;
+
+}
+
+/*====================================
+        PROJECT SECTION
+=====================================*/
+
+.projects-page{
+
+    padding:80px 8%;
+
+    background:#eef5f7;
+
+}
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:35px;
+
+}
+
+/*====================================
+        PROJECT CARD
+=====================================*/
+
+.project-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.4s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.18);
+
+}
+
+/*====================================
+        PROJECT IMAGE
+=====================================*/
+
+.project-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.project-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/*====================================
+        PROJECT CONTENT
+=====================================*/
+
+.project-content{
+
+    padding:25px;
+
+}
+
+.project-content h3{
+
+    color:#006d77;
+
+    font-size:28px;
+
+    margin-bottom:15px;
+
+}
+
+.project-content p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+    font-size:17px;
+
+}
+
+.project-content i{
+
+    color:#009688;
+
+    margin-right:8px;
+
+}
+
+/*====================================
+        PROJECT STATUS
+=====================================*/
+
+.status{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:white;
+
+    margin-bottom:20px;
+
+    letter-spacing:.5px;
+
+}
+
+.status.ongoing{
+
+    background:#009688;
+
+}
+
+.status.complete{
+
+    background:#4CAF50;
+
+}
+
+.status.upcoming{
+
+    background:#ff9800;
+
+}
+
+/*====================================
+        PROGRESS BAR
+=====================================*/
+
+.progress{
+
+    width:100%;
+
+    height:12px;
+
+    background:#e8e8e8;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin:20px 0 10px;
+
+}
+
+.progress div{
+
+    height:100%;
+
+    background:linear-gradient(90deg,#009688,#00c9a7);
+
+    border-radius:20px;
+
+    transition:1s;
+
+}
+
+.progress + p{
+
+    font-size:15px;
+
+    color:#777;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+/*====================================
+        PROJECT BUTTONS
+=====================================*/
+
+.project-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.project-buttons .btn{
+
+    flex:1;
+
+    text-align:center;
+
+    padding:14px;
+
+    background:#009688;
+
+    color:white;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.4s;
+
+}
+
+.project-buttons .btn:hover{
+
+    background:#006d77;
+
+    transform:translateY(-4px);
+
+}
+
+.project-buttons .btn2{
+
+    flex:1;
+
+    text-align:center;
+
+    padding:14px;
+
+    background:#FFD54F;
+
+    color:black;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.4s;
+
+}
+
+.project-buttons .btn2:hover{
+
+    background:#ffb300;
+
+    transform:translateY(-4px);
+
+}
+
+/*====================================
+        PROJECT ICONS
+=====================================*/
+
+.project-content i{
+
+    color:#009688;
+
+    margin-right:8px;
+
+}
+
+.project-content strong{
+
+    color:#333;
+
+}
+
+/*====================================
+        PROJECT CARD EFFECTS
+=====================================*/
+
+.project-card{
+
+    position:relative;
+
+}
+
+.project-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(90deg,#009688,#FFD54F);
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.18);
+
+}
+
+/*====================================
+        IMAGE EFFECT
+=====================================*/
+
+.project-card{
+
+    overflow:hidden;
+
+}
+
+.project-card img{
+
+    transition:.6s;
+
+}
+
+.project-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/*====================================
+        CARD ANIMATION
+=====================================*/
+
+.project-card{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+0%{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/*====================================
+        PROJECT TITLE
+=====================================*/
+
+.project-content h3{
+
+    transition:.4s;
+
+}
+
+.project-card:hover h3{
+
+    color:#ff9800;
+
+}
+
+/*====================================
+        PROJECT DESCRIPTION
+=====================================*/
+
+.project-content p{
+
+    transition:.3s;
+
+}
+
+.project-card:hover p{
+
+    color:#444;
+
+}
+
+/*====================================
+        SHADOW EFFECT
+=====================================*/
+
+.project-card{
+
+    border:1px solid rgba(0,0,0,.05);
+
+}
+
+.project-card:hover{
+
+    border-color:#009688;
+
+}
+
+/*====================================
+        RESPONSIVE DESIGN
+=====================================*/
+
+@media(max-width:992px){
+
+.project-hero h1{
+
+font-size:48px;
+
+}
+
+.project-hero p{
+
+font-size:19px;
+
+}
+
+.project-grid{
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+}
+
+.project-buttons{
+
+flex-direction:column;
+
+}
+
+.project-buttons .btn,
+
+.project-buttons .btn2{
+
+width:100%;
+
+}
+
+}
+
+/*====================================
+        MOBILE RESPONSIVE
+=====================================*/
+
+@media(max-width:768px){
+
+.project-hero{
+
+padding:80px 20px;
+
+min-height:45vh;
+
+}
+
+.project-hero h1{
+
+font-size:36px;
+
+}
+
+.project-hero p{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+.project-search{
+
+flex-direction:column;
+
+padding:30px 20px;
+
+}
+
+.project-search input{
+
+width:100%;
+
+}
+
+.project-search select{
+
+width:100%;
+
+}
+
+.projects-page{
+
+padding:60px 20px;
+
+}
+
+.project-grid{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+.project-card img{
+
+height:220px;
+
+}
+
+.project-content{
+
+padding:20px;
+
+}
+
+.project-content h3{
+
+font-size:24px;
+
+}
+
+.project-content p{
+
+font-size:16px;
+
+}
+
+.status{
+
+font-size:14px;
+
+padding:8px 18px;
+
+}
+
+}
+
+/*====================================
+        SMALL MOBILE
+=====================================*/
+
+@media(max-width:480px){
+
+.project-hero h1{
+
+font-size:30px;
+
+}
+
+.project-hero p{
+
+font-size:15px;
+
+}
+
+.project-card img{
+
+height:190px;
+
+}
+
+.project-content h3{
+
+font-size:22px;
+
+}
+
+.project-buttons{
+
+gap:10px;
+
+}
+
+.project-buttons .btn,
+
+.project-buttons .btn2{
+
+padding:12px;
+
+font-size:15px;
+
+}
+
+}
+
+/*====================================
+        SCROLL ANIMATION
+=====================================*/
+
+.project-card{
+
+opacity:0;
+
+animation:cardFade .8s ease forwards;
+
+}
+
+.project-card:nth-child(1){
+
+animation-delay:.2s;
+
+}
+
+.project-card:nth-child(2){
+
+animation-delay:.4s;
+
+}
+
+.project-card:nth-child(3){
+
+animation-delay:.6s;
+
+}
+
+.project-card:nth-child(4){
+
+animation-delay:.8s;
+
+}
+
+.project-card:nth-child(5){
+
+animation-delay:1s;
+
+}
+
+.project-card:nth-child(6){
+
+animation-delay:1.2s;
+
+}
+
+@keyframes cardFade{
+
+from{
+
+opacity:0;
+
+transform:translateY(60px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/*====================================
+        IMAGE OVERLAY
+=====================================*/
+
+.project-card{
+
+position:relative;
+
+}
+
+.project-card::after{
+
+content:"Helping Hands NGO";
+
+position:absolute;
+
+top:15px;
+
+right:15px;
+
+background:rgba(0,109,119,.9);
+
+color:white;
+
+padding:6px 14px;
+
+font-size:13px;
+
+border-radius:20px;
+
+font-weight:bold;
+
+}
+
+/*====================================
+        IMAGE ZOOM
+=====================================*/
+
+.project-card img{
+
+cursor:pointer;
+
+transition:.6s;
+
+}
+
+.project-card:hover img{
+
+transform:scale(1.1);
+
+}
+
+/*====================================
+        HOVER GLOW
+=====================================*/
+
+.project-card:hover{
+
+box-shadow:
+
+0 15px 35px rgba(0,150,136,.3);
+
+}
+
+/*====================================
+        CUSTOM SCROLLBAR
+=====================================*/
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#ececec;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#009688;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#006d77;
+
+}
+
+/*====================================
+        BUTTON ICON EFFECT
+=====================================*/
+
+.project-buttons .btn i,
+
+.project-buttons .btn2 i{
+
+margin-right:8px;
+
+}
+
+/*====================================
+        CARD BORDER ANIMATION
+=====================================*/
+
+.project-card{
+
+border:2px solid transparent;
+
+}
+
+.project-card:hover{
+
+border-color:#FFD54F;
+
+}
+
+/*====================================
+        TITLE UNDERLINE
+=====================================*/
+
+.project-hero h1::after{
+
+content:"";
+
+display:block;
+
+width:120px;
+
+height:5px;
+
+background:#FFD54F;
+
+margin:15px auto;
+
+border-radius:20px;
+
+}
+
+/*====================================
+        SEARCH HOVER
+=====================================*/
+
+.project-search input:hover,
+
+.project-search select:hover{
+
+transform:translateY(-2px);
+
+}
+
+/*====================================
+        PAGE END
+=====================================*/
+
+.categories{
+
+padding:90px 8%;
+
+text-align:center;
+
+background:white;
+
+}
+
+.category-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.category-card{
+
+background:#eef9f8;
+
+padding:40px;
+
+border-radius:18px;
+
+transition:.4s;
+
+}
+
+.category-card:hover{
+
+background:#009688;
+
+color:white;
+
+}
+
+.category-card i{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+color:#009688;
+
+}
+
+.category-card:hover i{
+
+color:white;
+
+}
+
+/*==============================
+        PROJECT IMPACT
+==============================*/
+
+.project-impact{
+
+background:#f8fbfc;
+
+padding:90px 8%;
+
+text-align:center;
+
+}
+
+.project-impact h2{
+
+font-size:48px;
+
+color:#006d77;
+
+margin-bottom:20px;
+
+}
+
+.impact-text{
+
+max-width:800px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#555;
+
+margin-bottom:50px;
+
+}
+
+.impact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+}
+
+.impact-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.impact-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.impact-card i{
+
+font-size:55px;
+
+color:#009688;
+
+margin-bottom:20px;
+
+}
+
+.impact-card h3{
+
+font-size:38px;
+
+color:#006d77;
+
+margin-bottom:10px;
+
+}
+
+.impact-card p{
+
+font-size:17px;
+
+color:#666;
+
+}
+
+/*====================================
+        PROJECT TIMELINE
+=====================================*/
+
+.timeline-section{
+
+padding:100px 8%;
+
+background:#f8fbfc;
+
+}
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-title h2{
+
+font-size:50px;
+
+color:#006d77;
+
+margin-bottom:20px;
+
+}
+
+.section-title p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#666;
+
+}
+
+.timeline{
+
+position:relative;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.timeline::after{
+
+content:"";
+
+position:absolute;
+
+width:6px;
+
+background:#009688;
+
+top:0;
+
+bottom:0;
+
+left:50%;
+
+margin-left:-3px;
+
+border-radius:20px;
+
+}
+
+.timeline-item{
+
+padding:20px 40px;
+
+position:relative;
+
+width:50%;
+
+}
+
+.left{
+
+left:0;
+
+}
+
+.right{
+
+left:50%;
+
+}
+
+.timeline-content{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.timeline-content:hover{
+
+transform:translateY(-8px);
+
+}
+
+.timeline-content h3{
+
+color:#006d77;
+
+font-size:28px;
+
+margin-bottom:10px;
+
+}
+
+.timeline-content h5{
+
+color:#009688;
+
+margin-bottom:15px;
+
+font-size:17px;
+
+}
+
+.timeline-content p{
+
+color:#555;
+
+line-height:1.8;
+
+}
+
+.timeline-icon{
+
+position:absolute;
+
+width:60px;
+
+height:60px;
+
+background:#009688;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:white;
+
+font-size:25px;
+
+top:35px;
+
+z-index:5;
+
+border:5px solid white;
+
+box-shadow:0 0 15px rgba(0,0,0,.2);
+
+}
+
+.left .timeline-icon{
+
+right:-30px;
+
+}
+
+.right .timeline-icon{
+
+left:-30px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.timeline::after{
+
+left:30px;
+
+}
+
+.timeline-item{
+
+width:100%;
+
+padding-left:80px;
+
+padding-right:20px;
+
+}
+
+.left,
+
+.right{
+
+left:0;
+
+}
+
+.left .timeline-icon,
+
+.right .timeline-icon{
+
+left:0;
+
+}
+
+}
+
+/*====================================
+        PROJECT PROGRESS
+=====================================*/
+
+.progress-section{
+
+padding:100px 8%;
+
+background:white;
+
+text-align:center;
+
+}
+
+.progress-section h2{
+
+font-size:50px;
+
+color:#006d77;
+
+margin-bottom:20px;
+
+}
+
+.progress-section p{
+
+max-width:750px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#666;
+
+margin-bottom:60px;
+
+}
+
+.progress-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:35px;
+
+}
+
+.circle-card{
+
+background:#f8fbfc;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.circle-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.circle{
+
+width:180px;
+
+height:180px;
+
+border-radius:50%;
+
+margin:auto;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:35px;
+
+font-weight:bold;
+
+color:#006d77;
+
+margin-bottom:25px;
+
+}
+
+.circle1{
+
+background:conic-gradient(#009688 90%,#ddd 0);
+
+}
+
+.circle2{
+
+background:conic-gradient(#009688 75%,#ddd 0);
+
+}
+
+.circle3{
+
+background:conic-gradient(#009688 65%,#ddd 0);
+
+}
+
+.circle4{
+
+background:conic-gradient(#009688 100%,#ddd 0);
+
+}
+
+.circle h3{
+
+background:white;
+
+width:130px;
+
+height:130px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.circle-card h4{
+
+color:#006d77;
+
+font-size:26px;
+
+margin-bottom:15px;
+
+}
+
+.circle-card p{
+
+color:#666;
+
+}
+/*====================================
+        NGO FEATURES
+=====================================*/
+
+.features{
+
+padding:100px 8%;
+
+background:#eef9f8;
+
+text-align:center;
+
+}
+
+.features h2{
+
+font-size:50px;
+
+color:#006d77;
+
+margin-bottom:20px;
+
+}
+
+.features p{
+
+max-width:800px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#666;
+
+margin-bottom:60px;
+
+}
+
+.feature-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+}
+
+.feature-card{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.feature-card:hover{
+
+background:#009688;
+
+transform:translateY(-10px);
+
+}
+
+.feature-card i{
+
+font-size:60px;
+
+color:#009688;
+
+margin-bottom:25px;
+
+transition:.4s;
+
+}
+
+.feature-card:hover i{
+
+color:white;
+
+transform:rotate(360deg);
+
+}
+
+.feature-card h3{
+
+font-size:28px;
+
+color:#006d77;
+
+margin-bottom:15px;
+
+transition:.4s;
+
+}
+
+.feature-card:hover h3{
+
+color:white;
+
+}
+
+.feature-card p{
+
+color:#666;
+
+transition:.4s;
+
+}
+
+.feature-card:hover p{
+
+color:white;
+
+}
+
+@media(max-width:768px){
+
+.progress-grid,
+
+.feature-grid{
+
+grid-template-columns:1fr;
+
+}
+.progress-section h2,
+.features h2{
+font-size:36px;
+}
+}
+</style>

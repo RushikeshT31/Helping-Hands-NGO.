@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Thank You</title>
+
+<style>
+
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#eef9f8;
+    font-family:Arial;
+}
+
+.box{
+
+    width:550px;
+    background:white;
+    padding:50px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+h1{
+    color:#009688;
+    font-size:48px;
+}
+
+p{
+    font-size:22px;
+}
+
+a{
+
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#009688;
+    color:white;
+    text-decoration:none;
+    border-radius:40px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>❤️ Thank You!</h1>
+
+<p>
+Thank you <b>{{ name }}</b>
+for donating
+<b>₹{{ amount }}</b>.
+</p>
+
+<p>Your support means a lot to us.</p>
+
+<a href="/">🏠 Back To Home</a>
+
+</div>
+
+</body>
+
+</html>
